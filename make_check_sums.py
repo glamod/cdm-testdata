@@ -10,18 +10,20 @@ def file_md5_checksum(fname):
     return hash_md5.hexdigest()
 
 
-def main(dry_run=False):
-    files = Path().cwd().rglob('*.imma')
-    for ncf in files:
-        md5 = Path(f"{ncf}.md5")
+def main(suffix, dry_run=False):
+    files = Path().cwd().rglob(f'*.{suffix}')
+    for f in files:
+        md5 = Path(f"{f}.md5")
         if not md5.exists():
             if dry_run:
-                print(f"Create checksum for {ncf}")
+                print(f"Create checksum for {f}")
                 continue
 
             with open(md5, "w") as out:
-                out.write(file_md5_checksum(ncf))
+                out.write(file_md5_checksum(f))
 
 
 if __name__ == '__main__':
-    main()
+    main("imma")
+    main("csv")
+    main("psv")
