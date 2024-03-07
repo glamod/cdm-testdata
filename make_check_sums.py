@@ -11,7 +11,7 @@ def file_md5_checksum(fname):
 
 
 def main(dry_run=False):
-    files = Path().cwd().rglob('*.nc')
+    files = Path().cwd().rglob('*.imma')
     for ncf in files:
         md5 = Path(f"{ncf}.md5")
         if not md5.exists():
