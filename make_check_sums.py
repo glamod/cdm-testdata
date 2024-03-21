@@ -27,3 +27,5 @@ if __name__ == '__main__':
     main("imma")
     main("csv")
     main("psv")
+    main("immt")
+    main("nc")
