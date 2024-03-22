@@ -14,13 +14,12 @@ def main(suffix, dry_run=False):
     files = Path().cwd().rglob(f'*.{suffix}')
     for f in files:
         md5 = Path(f"{f}.md5")
-        if not md5.exists():
-            if dry_run:
-                print(f"Create checksum for {f}")
-                continue
+        if dry_run:
+            print(f"Create checksum for {f}")
+            continue
 
-            with open(md5, "w") as out:
-                out.write(file_md5_checksum(f))
+        with open(md5, "w") as out:
+            out.write(file_md5_checksum(f))
 
 
 if __name__ == '__main__':
