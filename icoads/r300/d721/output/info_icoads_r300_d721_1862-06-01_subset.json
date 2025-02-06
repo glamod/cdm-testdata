@@ -342,5 +342,6 @@
         "c99_data:weather_indic": "object",
         "c99_data:weather": "object"
     },
-    "parse_dates": []
+    "parse_dates": [],
+    "encoding": "cp1252"
 }
