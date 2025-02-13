@@ -12,7 +12,6 @@ In order to add a new dataset to the `cdm_reader_mapper` testing data, please en
 
 To modify an existing dataset, be sure to remove the existing checksum file before running the `make_check_sums.py` script.
 
-
 ## Versioning
 When updating a dataset in `cdm-testdata` using a development branch and Pull Request,
 once changes have been merged to the `main` branch, you should tag a new version of `cdm-testdata`. 
@@ -20,6 +19,8 @@ once changes have been merged to the `main` branch, you should tag a new version
 The version tag of `cdm-testdata` should follow a [calendar versioning](https://calver.org/) scheme
 (i.e. version string follows from `vYYYY.MM.DD-r#`) reflecting the date of the tag creation, with modifiers if required.
 
-## Credits
+## Note
+⚠️  Use ``cp1252`` encoding with ``icoads_r300_d721`` test data!
 
+## Credits
 This package was build according to [xclim-testdata](https://github.com/Ouranosinc/xclim-testdata).
