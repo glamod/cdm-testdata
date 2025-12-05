@@ -30,3 +30,4 @@ if __name__ == '__main__':
     main("nc")
     main("txt.gz")
     main("json")
+    main("pq")
