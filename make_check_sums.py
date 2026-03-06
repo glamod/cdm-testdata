@@ -26,6 +26,7 @@ if __name__ == '__main__':
     main("imma")
     main("csv")
     main("psv")
+    main("parquet")
     main("immt")
     main("nc")
     main("txt.gz")
