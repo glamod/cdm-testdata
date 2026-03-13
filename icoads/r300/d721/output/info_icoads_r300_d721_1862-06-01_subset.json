@@ -102,7 +102,7 @@
         "c5:OS": "Int64",
         "c5:OP": "Int64",
         "c5:FM": "Int64",
-        "c5:vIMMT": "Int64",
+        "c5:IMMV": "Int64",
         "c5:IX": "Int64",
         "c5:W2": "Int64",
         "c5:WMI": "Int64",
