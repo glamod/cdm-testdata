@@ -707,7 +707,7 @@
         "encoding": "base36",
         "codetable": "icoads_3_0.fm"
     },
-    "c5:IMMV": {
+    "c5:vIMMT": {
         "description": "IMMT version",
         "field_length": 1,
         "column_type": "Int8",
