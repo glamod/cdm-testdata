@@ -48,7 +48,7 @@
     "iX": "object",
     "iR": "object",
     "RRR": "object",
-    "tR": "float64",
+    "tR": "object",
     "snTbTbTb": "object",
     "TbTbTb": "float64",
     "a": "object",
