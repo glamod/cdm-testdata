@@ -47,7 +47,7 @@
     "iQC": "object",
     "iX": "object",
     "iR": "object",
-    "RRR": "float64",
+    "RRR": "object",
     "tR": "float64",
     "snTbTbTb": "object",
     "TbTbTb": "float64",
