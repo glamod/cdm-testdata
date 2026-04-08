@@ -1,0 +1,11 @@
+IID,marob_id,kennung,geogr_laenge,geogr_laenge_flag,geogr_breite,geogr_breite_flag,stationshoehe_msl,barometerhoehe_msl,messzeit,messzeit_flag,origin_center,origin_subcenter,fahrtgeschwindigkeit,fahrtrichtung,sensorhoehe_was_tt,lufttemperatur,lufttemperatur_flag,taupunkttemperatur,taupunkttemperatur_flag,feuchttemperatur,feuchttemperatur_flag,luftdruck_stationshoehe,luftdruck_stationshoehe_flag,luftdruck_reduziert,luftdruck_reduziert_flag,wassertemperatur,wassertemperatur_flag,messtiefe,sensorhoehe_was_ff,windrichtung,windrichtung_flag,windgeschwindigkeit,windgeschwindigkeit_flag
+10384,441917752,0701/,-125.6,,47.6,,,,2026-04-07T01:00:00,,8,0,7.0,225.0,,,,,,,,,,1020.3,,,,,,,,,
+10384,441992259,8VEUMXY,-71.2,,46.8,,3.7,,2026-04-07T11:00:00,,53,0,0.0,,21.8,-6.8,,-15.3,,,,,,1023.2,,,,5.0,23.0,30.0,,2.6,
+10384,441997472,AMOUK77,-43.2,,-62.6,,,,2026-04-07T11:00:00,,74,0,,,,-0.9,,-3.8,,,,,,979.9,,,,,,,,,
+10256,442063033,CFN5191,-82.4,3.0,43.0,3.0,,,2026-04-07T18:53:00,,8,0,,,,,,,,,,,,,,,,,,20.0,,4.6,
+10384,442054215,JJKGXKX,56.74,,5.32,,,58.0,2026-04-07T18:00:00,,85,0,7.0,35.0,58.0,28.9,,24.0,,,,1007.2,,1014.3,,,,,,265.0,,2.2,
+10384,441911509,LF5B,2.78,,60.61,,,,2026-04-07T02:00:00,,88,0,,,,6.51,,0.29,,,,1019.9,,1026.8,,,,0.5,,161.0,,1.4,
+10256,442020894,PBKH,-84.3,,22.6,,,,2026-04-07T14:00:00,,74,0,9.0,45.0,,27.8,,23.2,,24.5,,,,1012.7,,,,,,,,,
+10256,442100477,V7A4288,-88.0,,30.4,,,,2026-04-07T23:00:00,,8,0,4.0,180.0,,23.8,,14.2,,17.8,,,,1017.1,,,,,,,,,
+10256,442083552,WDC9417,-64.2,,31.7,,,,2026-04-07T21:00:00,,8,0,,,,22.2,,20.6,,,,,,1019.9,,21.4,,,,150.0,,5.1,
+10256,441994205,WGEB,-122.6,,37.7,,,,2026-04-07T11:00:00,,8,0,,,,,,,,,,,,1025.1,,,,,,,,,
